@@ -22,5 +22,5 @@ jobs:
         run: |
           curl -X POST \
             -H "Content-Type: application/json" \
-            -H "X-Rundeck-Auth-Token: ${{ Cp8JPmWz2YvSki6ie3GIZUy38nhMw9WI }}" \            
-            https://demos.myrundeck.com/api/46/webhook/mnTE5gFGnpGmSp6p0tQnejZVzsyWyvSf#github_actions
+            -H "X-Rundeck-Auth-Token: ${{ secrets.RBA_API_TOKEN }}" \
+            https://rdse.runbook.pagerduty.cloud/api/14/job/d8987916-d0a6-4de2-b66a-bd75dc9054b2/run
