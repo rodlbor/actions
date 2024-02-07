@@ -22,5 +22,5 @@ jobs:
         run: |
           curl -X POST \
             -H "Content-Type: application/json" \
-            -H "X-Rundeck-Auth-Token: ${{ Cp8JPmWz2YvSki6ie3GIZUy38nhMw9WI }}" \
-            https://demos.myrundeck.com/api/14/job/be7d4ff0-a4db-4aa5-97b3-933c162e9435/run
+            -H "X-Rundeck-Auth-Token: ${{ Cp8JPmWz2YvSki6ie3GIZUy38nhMw9WI }}" \            
+            https://demos.myrundeck.com/api/46/webhook/mnTE5gFGnpGmSp6p0tQnejZVzsyWyvSf#github_actions
